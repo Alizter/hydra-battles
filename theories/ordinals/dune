@@ -2,6 +2,7 @@
  (name hydras)
  (package coq-hydra-battles)
  (synopsis "Exploration of some properties of Kirby and Paris' hydra battles, with the help of Coq")
- (flags -w -deprecated-hint-rewrite-without-locality -w -unknown-option -w -deprecated-option))
+ (flags -w -deprecated-hint-rewrite-without-locality -w -unknown-option -w -deprecated-option)
+ (theories LibHyps Equations))
 
 (include_subdirs qualified)

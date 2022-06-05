@@ -2,5 +2,5 @@
  (name gaia_hydras)
  (package coq-gaia-hydras)
  (synopsis "Comparison between ordinals in Gaia and Hydra battles")
- ;(theories hydras)
+ (theories hydras mathcomp.ssreflect mathcomp.zify gaia.schutte)
  (flags -w -notation-overridden -w -ambiguous-paths))
