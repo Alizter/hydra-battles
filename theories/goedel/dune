@@ -1,4 +1,5 @@
 (coq.theory
  (name Goedel)
  (package coq-goedel)
- (synopsis "Coq proof of the Gödel-Rosser 1st incompleteness theorem"))
+ (synopsis "Coq proof of the Gödel-Rosser 1st incompleteness theorem")
+ (theories hydras Coqprime))
